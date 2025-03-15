@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Button("テスト変更メモを追加") {
+                Button("メモを追加") {
                     showPopup.toggle()
                 }
                 .padding()
